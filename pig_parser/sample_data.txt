@@ -1,0 +1,358 @@
+<http://rdf.freebase.com/ns/m.010013p2>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.010013p2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100_8nm>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100_8nm>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100_dz1>	<http://rdf.freebase.com/ns/people.person.gender>	<http://rdf.freebase.com/ns/m.05zppz>	.
+<http://rdf.freebase.com/ns/m.0100_dz1>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100_dz1>	<http://rdf.freebase.com/ns/people.person.profession>	<http://rdf.freebase.com/ns/m.031j5q>	.
+<http://rdf.freebase.com/ns/m.0100_dz1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100dtrd>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100dtrd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100hgy6>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100hgy6>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100kt2c>	<http://rdf.freebase.com/ns/people.person.date_of_birth>	"1983-01-04"^^<http://www.w3.org/2001/XMLSchema#date>	.
+<http://rdf.freebase.com/ns/m.0100kt2c>	<http://rdf.freebase.com/ns/people.person.height_meters>	"1.73"	.
+<http://rdf.freebase.com/ns/m.0100kt2c>	<http://rdf.freebase.com/ns/people.person.place_of_birth>	<http://rdf.freebase.com/ns/m.0cpz35>	.
+<http://rdf.freebase.com/ns/m.0100kt2c>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100kt2c>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100pp1_>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100pp1_>	<http://rdf.freebase.com/ns/people.person.place_of_birth>	<http://rdf.freebase.com/ns/m.03rk0>	.
+<http://rdf.freebase.com/ns/m.0100pp1_>	<http://rdf.freebase.com/ns/people.person.date_of_birth>	"1952"^^<http://www.w3.org/2001/XMLSchema#gYear>	.
+<http://rdf.freebase.com/ns/m.0100pp1_>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100s3s6>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100s3s6>	<http://rdf.freebase.com/ns/people.person.place_of_birth>	<http://rdf.freebase.com/ns/m.03rk0>	.
+<http://rdf.freebase.com/ns/m.0100s3s6>	<http://rdf.freebase.com/ns/people.person.date_of_birth>	"1996-02-18"^^<http://www.w3.org/2001/XMLSchema#date>	.
+<http://rdf.freebase.com/ns/m.0100s3s6>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100t3rv>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100t3rv>	<http://rdf.freebase.com/ns/people.person.profession>	<http://rdf.freebase.com/ns/m.02ynfr>	.
+<http://rdf.freebase.com/ns/m.0100t3rv>	<http://rdf.freebase.com/ns/people.person.profession>	<http://rdf.freebase.com/ns/m.02krf9>	.
+<http://rdf.freebase.com/ns/m.0100t3rv>	<http://rdf.freebase.com/ns/people.person.gender>	<http://rdf.freebase.com/ns/m.05zppz>	.
+<http://rdf.freebase.com/ns/m.0100t3rv>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100t4gm>	<http://rdf.freebase.com/ns/people.person.gender>	<http://rdf.freebase.com/ns/m.05zppz>	.
+<http://rdf.freebase.com/ns/m.0100t4gm>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100t4gm>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100y62f>	<http://rdf.freebase.com/ns/people.person.parents>	<http://rdf.freebase.com/ns/m.0ck94xv>	.
+<http://rdf.freebase.com/ns/m.0100y62f>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100y62f>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100yc6l>	<http://rdf.freebase.com/ns/people.person.gender>	<http://rdf.freebase.com/ns/m.02zsn>	.
+<http://rdf.freebase.com/ns/m.0100yc6l>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0100yc6l>	<http://rdf.freebase.com/ns/people.person.children>	<http://rdf.freebase.com/ns/m.0100y7g1>	.
+<http://rdf.freebase.com/ns/m.0100yc6l>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.01012llb>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.01012llb>	<http://rdf.freebase.com/ns/people.person.gender>	<http://rdf.freebase.com/ns/m.05zppz>	.
+<http://rdf.freebase.com/ns/m.01012llb>	<http://rdf.freebase.com/ns/people.person.profession>	<http://rdf.freebase.com/ns/m.02jknp>	.
+<http://rdf.freebase.com/ns/m.01012llb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.01016t9w>	<http://rdf.freebase.com/ns/people.person.parents>	<http://rdf.freebase.com/ns/m.027pm1n>	.
+<http://rdf.freebase.com/ns/m.01016t9w>	<http://rdf.freebase.com/ns/people.person.date_of_birth>	"1985-12-16"^^<http://www.w3.org/2001/XMLSchema#date>	.
+<http://rdf.freebase.com/ns/m.01016t9w>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.01016t9w>	<http://rdf.freebase.com/ns/people.person.gender>	<http://rdf.freebase.com/ns/m.02zsn>	.
+<http://rdf.freebase.com/ns/m.01016t9w>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.01017t32>	<http://rdf.freebase.com/ns/people.person.sibling_s>	<http://rdf.freebase.com/ns/m.01017t30>	.
+<http://rdf.freebase.com/ns/m.01017t32>	<http://rdf.freebase.com/ns/people.person.gender>	<http://rdf.freebase.com/ns/m.02zsn>	.
+<http://rdf.freebase.com/ns/m.01017t32>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.01017t32>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0101b0kh>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0101b0kh>	<http://rdf.freebase.com/ns/people.person.profession>	<http://rdf.freebase.com/ns/m.0d8qb>	.
+<http://rdf.freebase.com/ns/m.0101b0kh>	<http://rdf.freebase.com/ns/people.person.gender>	<http://rdf.freebase.com/ns/m.05zppz>	.
+<http://rdf.freebase.com/ns/m.0101b0kh>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0101cbh4>	<http://rdf.freebase.com/ns/people.person.gender>	<http://rdf.freebase.com/ns/m.05zppz>	.
+<http://rdf.freebase.com/ns/m.0101cbh4>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0101cbh4>	<http://rdf.freebase.com/ns/people.person.profession>	<http://rdf.freebase.com/ns/m.031j5q>	.
+<http://rdf.freebase.com/ns/m.0101cbh4>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0101dljv>	<http://rdf.freebase.com/ns/people.person.gender>	<http://rdf.freebase.com/ns/m.02zsn>	.
+<http://rdf.freebase.com/ns/m.0101dljv>	<http://rdf.freebase.com/ns/people.person.parents>	<http://rdf.freebase.com/ns/m.0wl0ryg>	.
+<http://rdf.freebase.com/ns/m.0101dljv>	<http://rdf.freebase.com/ns/people.person.date_of_birth>	"1809"^^<http://www.w3.org/2001/XMLSchema#gYear>	.
+<http://rdf.freebase.com/ns/m.0101dljv>	<http://rdf.freebase.com/ns/people.person.parents>	<http://rdf.freebase.com/ns/m.0wl0rvk>	.
+<http://rdf.freebase.com/ns/m.0101dljv>	<http://rdf.freebase.com/ns/people.person.sibling_s>	<http://rdf.freebase.com/ns/m.0101dljs>	.
+<http://rdf.freebase.com/ns/m.0101dljv>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0101dljv>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0101fx0h>	<http://rdf.freebase.com/ns/people.person.sibling_s>	<http://rdf.freebase.com/ns/m.0101fx0f>	.
+<http://rdf.freebase.com/ns/m.0101fx0h>	<http://rdf.freebase.com/ns/people.person.sibling_s>	<http://rdf.freebase.com/ns/m.0101mml6>	.
+<http://rdf.freebase.com/ns/m.0101fx0h>	<http://rdf.freebase.com/ns/people.person.parents>	<http://rdf.freebase.com/ns/m.0101mmpj>	.
+<http://rdf.freebase.com/ns/m.0101fx0h>	<http://rdf.freebase.com/ns/people.person.sibling_s>	<http://rdf.freebase.com/ns/m.01032xbh>	.
+<http://rdf.freebase.com/ns/m.0101fx0h>	<http://rdf.freebase.com/ns/type.object.type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.0101fx0h>	<http://rdf.freebase.com/ns/people.person.parents>	<http://rdf.freebase.com/ns/m.0101fvtj>	.
+<http://rdf.freebase.com/ns/m.0101fx0h>	<http://rdf.freebase.com/ns/people.person.gender>	<http://rdf.freebase.com/ns/m.05zppz>	.
+<http://rdf.freebase.com/ns/m.0101fx0h>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://rdf.freebase.com/ns/people.person>	.
+<http://rdf.freebase.com/ns/m.02zsn>	<http://rdf.freebase.com/ns/type.object.name>	"Female"@en	.
+<http://rdf.freebase.com/ns/m.05zppz>	<http://rdf.freebase.com/ns/type.object.name>	"Male"@en	.
+<http://rdf.freebase.com/ns/m.0100_dz1>	<http://rdf.freebase.com/ns/type.object.name>	"Brandon Pierce"@en	.
+<http://rdf.freebase.com/ns/m.0cpz35>	<http://rdf.freebase.com/ns/type.object.name>	"Mamak, Ankara"@en	.
+<http://rdf.freebase.com/ns/m.010013p2>	<http://rdf.freebase.com/ns/type.object.name>	"Robert Bex"@en	.
+<http://rdf.freebase.com/ns/m.0100_8nm>	<http://rdf.freebase.com/ns/type.object.name>	"Arthur Elton"@en	.
+<http://rdf.freebase.com/ns/m.0100hgy6>	<http://rdf.freebase.com/ns/type.object.name>	"Gene Marks"@en	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.name>	"Стивен Чемлани"@ru	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.name>	"Stephen Chemlany"@fr	.
+<http://rdf.freebase.com/ns/m.0100j9wd>	<http://rdf.freebase.com/ns/type.object.name>	"Stephen Kwelio Chemlany"@en	.
+<http://rdf.freebase.com/ns/m.0100kt2c>	<http://rdf.freebase.com/ns/type.object.name>	"Mine Güngör"@en	.
+<http://rdf.freebase.com/ns/m.0100s3s6>	<http://rdf.freebase.com/ns/type.object.name>	"Lalram Muana"@en	.
+<http://rdf.freebase.com/ns/m.0100t3rv>	<http://rdf.freebase.com/ns/type.object.name>	"Sean Ohlenkamp"@en	.
+<http://rdf.freebase.com/ns/m.0100t4gm>	<http://rdf.freebase.com/ns/type.object.name>	"Lucas Sanoff"@en	.
+<http://rdf.freebase.com/ns/m.0100y62f>	<http://rdf.freebase.com/ns/type.object.name>	"Sundar K. Vijayan"@en	.
+<http://rdf.freebase.com/ns/m.0100yc6l>	<http://rdf.freebase.com/ns/type.object.name>	"Deon Hall"@en	.
+<http://rdf.freebase.com/ns/m.01012llb>	<http://rdf.freebase.com/ns/type.object.name>	"Niyi Akinmolayan"@en	.
+<http://rdf.freebase.com/ns/m.01016t9w>	<http://rdf.freebase.com/ns/type.object.name>	"Andika Hazrumy"@en	.
+<http://rdf.freebase.com/ns/m.0101b0kh>	<http://rdf.freebase.com/ns/type.object.name>	"Ivan Kasanzew"@en	.
+<http://rdf.freebase.com/ns/m.0101cbh4>	<http://rdf.freebase.com/ns/type.object.name>	"Spencer Riviera"@en	.
+<http://rdf.freebase.com/ns/m.0101dljv>	<http://rdf.freebase.com/ns/type.object.name>	"Henrietta Barrett"@en	.
+<http://rdf.freebase.com/ns/m.0101fx0h>	<http://rdf.freebase.com/ns/type.object.name>	"Jason Oquendo"@en	.
+<http://rdf.freebase.com/ns/m.0100pp1_>	<http://rdf.freebase.com/ns/type.object.name>	"Hamid Aboutalebi"@en	.
+<http://rdf.freebase.com/ns/m.01017t32>	<http://rdf.freebase.com/ns/type.object.name>	"Chester Bennington"@en	.
+<http://rdf.freebase.com/ns/m.0100dtrd>	<http://rdf.freebase.com/ns/type.object.name>	"Bill Dessens"@en	.
+<http://rdf.freebase.com/ns/m.0wl0ryg>	<http://rdf.freebase.com/ns/type.object.name>	"Edward Barrett Moulton Barrett"@en	.
+<http://rdf.freebase.com/ns/m.027pm1n>	<http://rdf.freebase.com/ns/type.object.name>	"Ratu Atut Chosiyah"@en	.
+<http://rdf.freebase.com/ns/m.027pm1n>	<http://rdf.freebase.com/ns/type.object.name>	"Ratu Atut Chosiyah"@id	.
+<http://rdf.freebase.com/ns/m.0ck94xv>	<http://rdf.freebase.com/ns/type.object.name>	"K. Vijayan"@en	.
+<http://rdf.freebase.com/ns/m.0ck94xv>	<http://rdf.freebase.com/ns/type.object.name>	"के० विजयन"@hi	.
+<http://rdf.freebase.com/ns/m.0101fvtj>	<http://rdf.freebase.com/ns/type.object.name>	"Vanessa Fontaine"@en	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Hindistan"@tr	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"India"@nl	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"هند"@fa	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"India"@es	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"India"@id	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Ấn Độ"@vi	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"ประเทศอินเดีย"@th	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"الهند"@ar	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"India"@fil	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"India"@ro	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Barato"@eo	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"India"@no	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Indija"@sl	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"印度"@zh	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"印度"@zh-TW	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"India"@en	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Inde"@fr	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"India"@ms	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Índia"@pt	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Indie"@pl	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Índia"@ca	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"India"@it	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"印度"@zh-Hant	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Индија"@sr	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"भारत"@hi	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"இந்தியா"@ta	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Indija"@lt	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"인도"@ko	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Ινδία"@el	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"הודו"@iw	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"India"@hu	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"India"@et	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Indien"@de	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Indien"@sv	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Indien"@da	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"インド"@ja	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Intia"@fi	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Indie"@cs	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Indija"@hr	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"India"@es-419	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Индия"@bg	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Indija"@lv	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"India"@sk	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Індія"@uk	.
+<http://rdf.freebase.com/ns/m.03rk0>	<http://rdf.freebase.com/ns/type.object.name>	"Индия"@ru	.
+<http://rdf.freebase.com/ns/m.0100y7g1>	<http://rdf.freebase.com/ns/type.object.name>	"Devon Hall"@en	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Art director"@no	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Umjetnički ravnatelj"@hr	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Művészeti vezető"@hu	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Director artístic"@ca	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Pengarah Seni"@ms	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"アートディレクター"@ja	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Artdirector"@de	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Art Director"@en	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Director Artístico"@pt-PT	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"미술 감독"@ko	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"कला निर्देशन"@hi	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Directeur artistique"@fr	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Director artístico"@es-419	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Giám đốc nghệ thuật"@vi	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Vodja oblikovanja"@sl	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Artdirector"@nl	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Арт-директор"@uk	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Sanat yönetmeni"@tr	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"مخرج فني"@ar	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Арт-директор"@ru	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Art director"@et	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Director artistic"@ro	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Diretor de arte"@pt	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Umělecký ředitel"@cs	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Mākslinieciskais vadītājs"@lv	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Director artístico"@es	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Direttore artistico"@it	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Art director"@da	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Καλλιτεχνικός διευθυντής"@el	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"ארט דיירקטור"@iw	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Reklamformgivare"@sv	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Уметнички директор"@sr	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"อาร์ตไดเรคเตอร์"@th	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Художник-постановчик"@bg	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Dyrektor artystyczny"@pl	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Penata seni"@id	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Καλλιτεχνικός διευθυντής"@lt	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"藝術指導"@zh-Hant	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Art Director"@fi	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Direktor ng Sining"@fil	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Art Director"@en-GB	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"美术总监"@zh	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"کارگردان هنری"@fa	.
+<http://rdf.freebase.com/ns/m.02ynfr>	<http://rdf.freebase.com/ns/type.object.name>	"Filmový architekt"@sk	.
+<http://rdf.freebase.com/ns/m.0wl0rvk>	<http://rdf.freebase.com/ns/type.object.name>	"Mary Graham Clarke"@en	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Redactor publicitario"@es	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Rédacteur publicitaire"@fr	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Redactor publicitari"@ca	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Copywriter"@it	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"ก๊อปปี้ไรเตอร์"@th	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Κειμενογράφος"@el	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Szövegíró"@hu	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Κειμενογράφος"@lt	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Копірайтер"@uk	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"카피라이터"@ko	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Copywriter"@sv	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Metin yazarı"@tr	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Copywriter"@fi	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Người viết quảng cáo"@vi	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Redactor publicitar"@ro	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Copywriter"@da	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Копирайтър"@bg	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Penulis iklan"@id	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"广告撰稿人"@zh	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Copywriter"@nl	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Penulis iklan"@ms	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Reklaamikirjutaja"@et	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Аутор рекламних текстова"@sr	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Reklāmas sastādītājs"@lv	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Kreativni direktor"@hr	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Копирайтеры"@ru	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"कॉपीराइटर"@hi	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"كاتب أو ناسخ النصوص"@ar	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Redactor publicitario"@es-419	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Copywriter"@fil	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Copywriter"@en-GB	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Copywriter"@pl	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"نویسنده آگهی تجاری"@fa	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Reklamní textař"@cs	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"撰稿人"@zh-Hant	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Werbetexter"@de	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Reklamný textár"@sk	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"コピーライター"@ja	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Redator"@pt	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Pisec oglasnih besedil"@sl	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Tekstforfatter"@no	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Copywriter"@en	.
+<http://rdf.freebase.com/ns/m.031j5q>	<http://rdf.freebase.com/ns/type.object.name>	"Redactor publicitário"@pt-PT	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Filmirežissöör"@et	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Filmregissör"@sv	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"کارگردان"@fa	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Кинорежиссёр"@ru	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Режисьор"@bg	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Realizador"@pt-PT	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"電影導演"@zh-Hant	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Reĝisoro"@eo	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Filmregissør"@no	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Director de cinema"@ca	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Filmový režisér"@sk	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"במאי קולנוע"@iw	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Diretor de cinema"@pt	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Direktor ng Pelikula"@fil	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Sutradara"@id	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Filmregisseur"@nl	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"电影导演"@zh	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Filmregisseur"@de	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"電影導演"@zh-TW	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Pengarah filem"@ms	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"ผู้กำกับภาพยนตร์"@th	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Кінорежисер"@uk	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"영화 감독"@ko	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"फ़िल्म निर्देशक"@hi	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Režisierius"@lt	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Редитељ"@sr	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Redatelj"@hr	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Director de cine"@es-419	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Σκηνοθέτης"@el	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Director de cine"@es	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Regizor de film"@ro	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Reżyser filmowy"@pl	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Regista"@it	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Elokuvaohjaaja"@fi	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Filminstruktør"@da	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Režiser"@sl	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Filmový režisér"@cs	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"映画監督"@ja	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Film director"@en	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Kinorežisors"@lv	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"مخرج"@ar	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Filmrendező"@hu	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Réalisateur"@fr	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Đạo diễn phim"@vi	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Film yönetmeni"@tr	.
+<http://rdf.freebase.com/ns/m.02jknp>	<http://rdf.freebase.com/ns/type.object.name>	"Film director"@en-GB	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Director de televisión"@es	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"TV-regissör"@sv	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Телережисер"@uk	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Television Director"@en	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Σκηνοθέτης τηλεοπτικών προγραμμάτων"@el	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"مخرج تليفزيوني"@ar	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"کارگردان تلویزیونی"@fa	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Giám đốc truyền hình"@vi	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"ディレクター"@ja	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Телережиссёр"@ru	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Televizní režisér"@cs	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"电视导演"@zh	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Телевизионен режисьор"@bg	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Director de televisión"@es-419	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Televīzijas režisors"@lv	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"電視導播"@zh-Hant	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"टेलीविज़न निर्देशक"@hi	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Telerežissöör"@et	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Televisieregisseur"@nl	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Réalisateur de télévision"@fr	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Diretor de televisão"@pt	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"ผู้กำกับโทรทัศน์"@th	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Televizijski režiser"@sl	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Televízny režisér"@sk	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"TV režisierius"@lt	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Sutradara Televisi"@id	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Regizor de televiziune"@ro	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Director de televisió"@ca	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Телевизијски режисер"@sr	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Fernsehregisseur"@de	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Reżyser telewizyjny"@pl	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Director de televisão"@pt-PT	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Televisio-ohjaaja"@fi	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"TV-instruktør"@da	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"TV-regissør"@no	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"במאי טלוויזיה"@iw	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"텔레비젼 제작 감독"@ko	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Pengarah televisyen"@ms	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Televíziós rendező"@hu	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Televizyon yönetmeni"@tr	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Television director"@en-GB	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Televizijski redatelj"@hr	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Direktor sa telebisyon"@fil	.
+<http://rdf.freebase.com/ns/m.02krf9>	<http://rdf.freebase.com/ns/type.object.name>	"Regista televisivo"@it	.
+<http://rdf.freebase.com/ns/m.0100yc6l>	<http://rdf.freebase.com/ns/people.person.height_meters>	"1.53"	.
+<http://rdf.freebase.com/ns/m.01016t9w>	<http://rdf.freebase.com/ns/people.person.height_meters>	"1.93"	.
+<http://rdf.freebase.com/ns/m.0101fx0h>	<http://rdf.freebase.com/ns/people.person.height_meters>	"1.99"	.
+<http://rdf.freebase.com/ns/m.01017t30>	<http://rdf.freebase.com/ns/people.sibling_relationship.sibling>	<http://rdf.freebase.com/ns/m.0k0r5sr>	.
+<http://rdf.freebase.com/ns/m.01017t30>	<http://rdf.freebase.com/ns/people.sibling_relationship.sibling>	<http://rdf.freebase.com/ns/m.01017t32>	.
+<http://rdf.freebase.com/ns/m.0101m_gt>	<http://rdf.freebase.com/ns/people.sibling_relationship.sibling>	<http://rdf.freebase.com/ns/m.0101m_6g>	.
+<http://rdf.freebase.com/ns/m.0101m_gt>	<http://rdf.freebase.com/ns/people.sibling_relationship.sibling>	<http://rdf.freebase.com/ns/m.0101m_65>	.
+<http://rdf.freebase.com/ns/m.0101fx0f>	<http://rdf.freebase.com/ns/people.sibling_relationship.sibling>	<http://rdf.freebase.com/ns/m.0101fx0h>	.
+<http://rdf.freebase.com/ns/m.0101fx0f>	<http://rdf.freebase.com/ns/people.sibling_relationship.sibling>	<http://rdf.freebase.com/ns/m.0101fvsk>	.
+<http://rdf.freebase.com/ns/m.0101dljs>	<http://rdf.freebase.com/ns/people.sibling_relationship.sibling>	<http://rdf.freebase.com/ns/m.0101dljv>	.
+<http://rdf.freebase.com/ns/m.0101dljs>	<http://rdf.freebase.com/ns/people.sibling_relationship.sibling>	<http://rdf.freebase.com/ns/m.02mfq>	.
+<http://rdf.freebase.com/ns/m.01032xbh>	<http://rdf.freebase.com/ns/people.sibling_relationship.sibling>	<http://rdf.freebase.com/ns/m.01032x4r>	.
+<http://rdf.freebase.com/ns/m.01032xbh>	<http://rdf.freebase.com/ns/people.sibling_relationship.sibling>	<http://rdf.freebase.com/ns/m.0101fx0h>	.
+<http://rdf.freebase.com/ns/m.0101mml6>	<http://rdf.freebase.com/ns/people.sibling_relationship.sibling>	<http://rdf.freebase.com/ns/m.0101mmjp>	.
+<http://rdf.freebase.com/ns/m.0101mml6>	<http://rdf.freebase.com/ns/people.sibling_relationship.sibling>	<http://rdf.freebase.com/ns/m.0101fx0h>	.
+<http://rdf.freebase.com/ns/m.0k0r5sr>	<http://rdf.freebase.com/ns/type.object.name>	"Tini Tom"@en	.
+<http://rdf.freebase.com/ns/m.0k0r5sr>	<http://rdf.freebase.com/ns/type.object.name>	"टिनी टॉम"@hi	.
+<http://rdf.freebase.com/ns/m.01002mfq>	<http://rdf.freebase.com/ns/type.object.name>	"Far From Over (Oliver Lieb remix)"@en	.
+<http://rdf.freebase.com/ns/m.0101mmjp>	<http://rdf.freebase.com/ns/type.object.name>	"Danny Oquendo"@en	.
+<http://rdf.freebase.com/ns/m.01032x4r>	<http://rdf.freebase.com/ns/type.object.name>	"Jovan Oquendo"@en	.
+<http://rdf.freebase.com/ns/m.0102mfq>	<http://rdf.freebase.com/ns/type.object.name>	"Et Enkelt Ord"@en	.
+
+
+
+

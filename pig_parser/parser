@@ -1,0 +1,138 @@
+/*
+ *
+ * Script parsuje nazvy, alternativne id, mena, pohlavie, vysku, datum narodenia, 
+ * miesto narodenia, pribuznych, rodicov a profesiu entity Person pomocou 
+ * Hadoop a Pig z databazy Freebasu. Vystup je ulozeny v usporiadanom súbore,
+ * v ktorom su jednotlive informacie oddelene tabulatormi.
+ *
+ * Spustenie: Script sa spusta v Grunte prikazom (prikaz ma byt v jednom riadku, 
+ * rozdeleny je kvoli prehladnosti):
+ * exec -param input=cesta_ku_vstupu/nazov_suboru 
+ *		-param output=cesta_kde_bude_vystup/nazov_priecinka
+ *		cesta_ku_scriptu/parser
+ * 
+ * @autor: Miroslav Wolf
+ *
+ */
+
+
+--data = LOAD 'ludiaoutput.txt' USING PigStorage('\t') AS (id:chararray, vztah:chararray, objekt:chararray);
+data = LOAD '$input' USING PigStorage('\t') AS (id:chararray, vztah:chararray, objekt:chararray);
+
+/* FILTROVANIE DAT */
+data1 = FILTER data BY objekt MATCHES '<.*people.person.*>'; 
+data2 = FILTER data BY vztah MATCHES '<.*people.person.*>';
+data3 = UNION data1, data2;
+data4 = FILTER data3 BY NOT(vztah MATCHES '<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>');
+
+/* PREKLADY */
+preklad = FILTER data BY vztah MATCHES '<http://rdf.freebase.com/ns/type.object.name>';
+preklad2 = FILTER preklad BY objekt MATCHES '.*@en';
+preklad3 = JOIN data4 BY $2 LEFT OUTER, preklad2 BY $0;
+preklad4 = FOREACH preklad3 GENERATE $0 AS id, $1 AS vztah, REPLACE ($2,'<http://rdf.freebase.com/ns/.*>', $5) AS objekt;
+preklad5 = FOREACH preklad4 GENERATE $0 AS id, REGEX_EXTRACT(vztah,'.([_a-zA-Z0-9]+)>',1) AS vztah, REPLACE ($2,'"|@en', '') AS objekt;
+
+/* FILTROVANIE VZTAHOV */
+name  = FILTER preklad5 BY vztah MATCHES 'type';
+name2 = FOREACH name GENERATE $0;
+name3 = GROUP name2 BY $0;
+name4 = FOREACH name3 GENERATE $0;
+
+gender  = FILTER preklad5 BY vztah MATCHES 'gender';
+gender2 = FOREACH gender GENERATE $0, REPLACE($1,'_',' ') AS vztah, REPLACE($2, '\\^|<http://www.w3.org/.*>','') AS objekt;
+gender3 = GROUP gender2 BY $0;
+gender4 = FOREACH gender3 GENERATE $0,gender2.(vztah,objekt);
+
+borndate  = FILTER preklad5 BY vztah MATCHES 'date_of_birth';
+borndate2 = FOREACH borndate GENERATE $0, REPLACE($1,'_',' ') AS vztah, REPLACE($2, '\\^|<http://www.w3.org/.*>','') AS objekt;
+borndate3 = GROUP borndate2 BY $0;
+borndate4 = FOREACH borndate3 GENERATE $0,borndate2.(vztah,objekt);
+
+bornplace  = FILTER preklad5 BY vztah MATCHES 'place_of_birth';
+bornplace2 = FOREACH bornplace GENERATE $0, REPLACE($1,'_',' ') AS vztah, REPLACE($2, '\\^|<http://www.w3.org/.*>','') AS objekt;
+bornplace3 = GROUP bornplace2 BY $0;
+bornplace4 = FOREACH bornplace3 GENERATE $0,bornplace2.(vztah,objekt);
+
+height  = FILTER preklad5 BY vztah MATCHES 'height_meters';
+height2 = FOREACH height GENERATE $0, REPLACE($1,'_',' ') AS vztah, REPLACE($2, '\\^|<http://www.w3.org/.*>','') AS objekt;
+height3 = GROUP height2 BY $0;
+height4 = FOREACH height3 GENERATE $0,height2.(vztah,objekt);
+
+sib = FILTER data BY vztah MATCHES '<http://rdf.freebase.com/ns/people.sibling_relationship.sibling>';
+siblings  = FILTER data4 BY vztah MATCHES '<http://rdf.freebase.com/ns/people.person.sibling_s>';
+siblings2 = FOREACH siblings GENERATE $0, REGEX_EXTRACT(vztah,'.([_a-zA-Z0-9]+)>',1), $2;
+sib2 = JOIN siblings2 BY $2 LEFT OUTER, sib BY $0;
+sib3 = FILTER sib2 BY NOT($5 MATCHES $0);
+sib4 = FOREACH sib3 GENERATE $0, $1, REPLACE($2,$2,$5);
+sib5 = JOIN sib4 BY $2 LEFT OUTER, preklad2 BY $0;
+sib6 = FOREACH sib5 GENERATE $0, $1, REPLACE($2,$2,$5);
+sib7 = FOREACH sib6 GENERATE $0, $1 AS vztah, REPLACE($2,'"|@en','');
+siblings2 = GROUP sib7 BY $0;
+siblings3 = FOREACH siblings2 GENERATE group, COUNT(sib7.vztah), $1.$2;
+siblings4 = FOREACH siblings3 GENERATE $0, (REPLACE($0, $0,'siblings'), $2);
+
+alts00 = FILTER preklad BY NOT($2 MATCHES '.*@en');
+alts0 = FOREACH alts00 GENERATE $0,$1,REPLACE($2,'"|@.*','');
+alts1  = GROUP alts0 BY $0;
+alts2 = FOREACH alts1 GENERATE group, COUNT(alts1.$1), $1.$2;
+alts3 = FOREACH alts2 GENERATE $0,$2;
+
+parents  = FILTER preklad5 BY vztah MATCHES 'parents';
+parents2 = GROUP parents BY $0;
+parents3 = FOREACH parents2 GENERATE group, COUNT(parents.vztah), $1.$2;
+parents4 = FOREACH parents3 GENERATE $0, (REPLACE($0, $0,'parents'), $2);
+
+proffesions  = FILTER preklad5 BY vztah MATCHES 'profession';
+proffesions2 = GROUP proffesions BY $0;
+proffesions3 = FOREACH proffesions2 GENERATE group, COUNT(proffesions.vztah), $1.$2;
+proffesions4 = FOREACH proffesions3 GENERATE $0, (REPLACE($0, $0,'proffesions'), $2);
+
+childrens  = FILTER preklad5 BY vztah MATCHES 'children';
+childrens2 = GROUP childrens BY $0;
+childrens3 = FOREACH childrens2 GENERATE group, COUNT(childrens.vztah), $1.$2;
+childrens4 = FOREACH childrens3 GENERATE $0, (REPLACE($0, $0,'childrens'), $2);
+
+/* STATISTIKY
+countprof = GROUP proffesions BY $2;
+countprof2 = FOREACH countprof GENERATE group, COUNT(proffesions.$2) AS a;
+countprof3 = ORDER countprof2 BY $1 DESC;
+countprof4 = LIMIT countprof3 1;
+countprof5 = FOREACH countprof4 GENERATE REPLACE($0,$0,'Najcastejsie povolanie'), $0, $1;
+
+
+oldest = FOREACH borndate GENERATE $0, REGEX_EXTRACT($2, '[0-9]+\\^|[0-9]+-',0) AS rok;
+oldest2 = FOREACH oldest GENERATE $0, REPLACE(rok,'\\^|-', '');
+oldest3 = ORDER oldest2 BY $1 ASC;
+oldest4 = LIMIT oldest3 1;
+oldest5 = JOIN oldest4 BY $0 LEFT OUTER, preklad2 BY $0;
+oldest6 = FOREACH oldest5 GENERATE REPLACE($0,$0,'Najstarsia osoba'),REPLACE($0,$0,$4), $1;
+oldest7 = FOREACH oldest6 GENERATE $0, REPLACE($1,'"|@en',''), $2;
+
+avgheight = FOREACH height2 GENERATE $2;
+avgheight2= GROUP avgheight ALL;
+maxheight3= FOREACH avgheight2 GENERATE REPLACE($0,$0,'najvacsia vyska'), MAX(avgheight2.$1);
+minheight3= FOREACH avgheight2 GENERATE REPLACE($0,$0,'najmensia vyska'), MIN(avgheight2.$1);
+*/
+
+/* SPAJANIE VYSTUPU */
+other0 = JOIN name4 BY $0 LEFT OUTER, preklad2 BY $0;
+other1 = JOIN other0 BY $0 LEFT OUTER, gender4 BY $0;
+other2 = JOIN other1 BY $0 LEFT OUTER, borndate4 BY $0;
+other3 = JOIN other2 BY $0 LEFT OUTER, bornplace4 BY $0;
+other4 = JOIN other3 BY $0 LEFT OUTER, height4 BY $0;
+other5 = JOIN other4 BY $0 LEFT OUTER, proffesions4 BY $0;
+other6 = JOIN other5 BY $0 LEFT OUTER, parents4 BY $0;
+other7 = JOIN other6 BY $0 LEFT OUTER, childrens4 BY $0;
+other8 = JOIN other7 BY $0 LEFT OUTER, siblings4 BY $0;
+other88 = JOIN other8 BY $0 LEFT OUTER, alts3 BY $0;
+other9 = FOREACH other88 GENERATE REPLACE($0,$0,$3),*;
+other10= FOREACH other9 GENERATE REGEX_EXTRACT($2,'.([_a-zA-Z0-9]+)>',1),REPLACE($0,'"|@en',''),$22,$6,$8,$10,$12,$14,$16,$18,$20;
+
+--statistiky = UNION countprof5, oldest7, maxheight3, minheight3;
+--STORE statistiky into 'statistics';
+--DUMP other10;
+
+STORE other10 into '$output';
+
+
+
